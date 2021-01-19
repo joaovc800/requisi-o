@@ -15,18 +15,15 @@
       <form class="form-floating">
         <input type="email" class="form-control" id="email" placeholder="name@example.com">
         <label for="floatingInputValue">Digite seu e-mail</label>
-      </form>
-      <label for="exampleFormControlSelect1" class="form-label">Escolha o problema</label>
-      <select class="form-select -2" aria-label="Default select example">
-        <option selected>Ope</option>
-        <option value="1">Problemas com a internet</option>
-        <option value="2">Redefinição de senha</option>
-        <option value="3">Defeitos em geral</option>
-        <option value="4">Outros</option>
-      </select>
-      <label for="exampleFormControlTextarea1" class="form-label">Digite seu comentário</label>
+      </form><br>
+      <select id="select"class="form-select -2" aria-label="Default select example" placeholder="Selecione o problema">
+        <option value="Problemas com a internet">Problemas com a internet</option>
+        <option value="Redefinição de senha">Redefinição de senha</option>
+        <option value="Defeitos em geral">Defeitos em geral</option>
+        <option value="Outros">Outros</option>
+      </select><br>
       <div class="form-floating">
-        <textarea class="form-control" placeholder="Leave a comment here" id="descricao" style="height: 100px"></textarea>
+        <textarea class="form-control" placeholder="Digite seu comentário" id="descricao" style="height: 100px"></textarea>
         <label for="floatingTextarea2">Digite seu comentário</label>
       </div><br>
       <div class="d-grid gap-2">
@@ -39,7 +36,8 @@
             <h6 class="card-title">Relação do conteúdo</h6>
             <div id="conteudo">
               <p id="p1">E-mail: </p>
-              <p id="p2">Descrição: </p>
+              <p id="p2">Problema: </p>
+              <p id="p3">Descrição: </p>
             </div>
           <div>
         </div>
