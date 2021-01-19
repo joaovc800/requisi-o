@@ -20,5 +20,4 @@ function limpar(){
   p2.innerHTML=`Problema: `;
   p3.innerHTML=`Descrição: `;
   card.innerHTML=``;
-  window.open("dadosRecebidos.html");
 }
